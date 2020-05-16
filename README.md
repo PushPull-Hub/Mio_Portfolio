@@ -18,6 +18,9 @@ Allow you to *Add*, *Done*, *Undone*, *Delete*, and *Edit* an Item
 # [Project 5 : Body Mass Index](https://github.com/PushPull-Hub/Exercises-Projects/tree/master/Projects/Body-Mass-Index)
 website calculate whatever linked to body mass Index 
 
+# [Project 6 : Calculator](https://github.com/PushPull-Hub/Exercises-Projects/tree/master/Projects/Calculator)
+Calculator (addition, subtraction, multiplication, division) with vanilla JavaScript
+
 
 
 
