@@ -2136,7 +2136,7 @@ input[type='radio'] + label:before {
 
 /* Image */
 
-/* .s-image-wrapper {
+.s-image-wrapper {
   width: 65vh;
   height: max-content;
   overflow: hidden;
@@ -2150,7 +2150,7 @@ input[type='radio'] + label:before {
 
 .s-image-wrapper img:hover {
   transform: scale(1.2);
-} */
+}
 
 .image {
   border-radius: 5px;
@@ -3443,3 +3443,5 @@ input[type='button']:disabled,
     padding: 0;
   }
 }
+
+/* Resumee Section  */
