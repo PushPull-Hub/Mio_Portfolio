@@ -2136,6 +2136,22 @@ input[type='radio'] + label:before {
 
 /* Image */
 
+/* .s-image-wrapper {
+  width: 65vh;
+  height: max-content;
+  overflow: hidden;
+}
+
+.s-image-wrapper img {
+  width: 100%;
+  transition: 350ms ease;
+  cursor: pointer;
+}
+
+.s-image-wrapper img:hover {
+  transform: scale(1.2);
+} */
+
 .image {
   border-radius: 5px;
   border: 0;
