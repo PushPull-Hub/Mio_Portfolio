@@ -13,7 +13,7 @@
     <!-- Header -->
     <section id="header">
       <header>
-        <span class="image avatar"
+        <span class="image avatar" style="margin-bottom: 24px;"
           ><img src="./images/IMG_1551.jpeg" alt=""
         /></span>
         <h1 id="logo">
@@ -81,7 +81,7 @@
           <div class="container">
             <header class="major">
               <h2>About Me</h2>
-              <blockquote style="font-size: 18px;">
+              <blockquote style="font-size: 25px;">
                 "&nbsp; Clean <a>code</a> always looks like it was written by
                 someone who cares&nbsp;"
               </blockquote>
@@ -94,15 +94,28 @@
               <a
                 target="_blank"
                 href="https://powercoders.org/"
-                style="font-size: 16px;"
-                >Powercoders Academy .
-              </a>
-              &nbsp; I have a big passion for Coding, Tech, and developement .
+                style="font-size: 20px;"
+                >Powercoders Academy </a
+              >.
               <br />
-              and this is a is an interactive portfolio to talk about the tools
-              and skills I've Learned so far.
+              I have a big passion for Coding, Tech, and developement , and this
+              is a is an interactive portfolio to talk about the tools and
+              skills I've Learned so far.
             </p>
           </div>
+          <ul class="actions" style="margin-left: 270px;">
+            <li>
+              <a href="./images/resume.pdf" class="button primary">Resumee</a>
+            </li>
+            <li>
+              <a
+                href="./images/Mio Curriculum.pdf"
+                class="button primary"
+                style="margin-left: 120px;"
+                >Europass Version</a
+              >
+            </li>
+          </ul>
         </section>
 
         <!-- Two -->
@@ -223,7 +236,7 @@
           <div class="container">
             <h3>Contact Me</h3>
             <p></p>
-            <form method="post" action="#">
+            <form method="POST" action="https://formspree.io/mdoweanw">
               <div class="row gtr-uniform">
                 <div class="col-6 col-12-xsmall">
                   <input type="text" name="name" id="name" placeholder="Name" />
@@ -231,7 +244,7 @@
                 <div class="col-6 col-12-xsmall">
                   <input
                     type="email"
-                    name="email"
+                    name="_replyto"
                     id="email"
                     placeholder="Email"
                   />
@@ -239,7 +252,7 @@
                 <div class="col-12">
                   <input
                     type="text"
-                    name="subject"
+                    name="name"
                     id="subject"
                     placeholder="Subject"
                   />
@@ -255,13 +268,15 @@
                 <div class="col-12">
                   <ul class="actions">
                     <li>
+                      <input type="submit" class="primary" />
+                    </li>
+                    <li>
                       <input
-                        type="submit"
-                        class="primary"
-                        value="Send Message"
+                        onclick="resetForm()"
+                        type="reset"
+                        value="Reset Form"
                       />
                     </li>
-                    <li><input type="reset" value="Reset Form" /></li>
                   </ul>
                 </div>
               </div>
@@ -282,6 +297,14 @@
     </div>
 
     <!-- Scripts -->
+    <script>
+      const resetForm = () => {
+        document.getElementById('email').value = ' ';
+        document.getElementById('name').value = ' ';
+        document.getElementById('subject').value = ' ';
+        document.getElementById('message').value = ' ';
+      };
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
