@@ -2347,7 +2347,6 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
-  margin-left: -1.125em;
   padding-left: 0;
 }
 
@@ -3427,4 +3426,12 @@ input[type='button']:disabled,
   .button {
     padding: 0;
   }
+}
+
+.my-blockquote {
+  font-size: 25px;
+}
+
+.personal-bio {
+  font-size: 23px;
 }
