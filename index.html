@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <title>Mio Portfolio</title>
@@ -49,7 +49,7 @@
     <div id="main">
       <section id="one">
         <div class="image main" data-position="center">
-          <img src="./images/cover_image.jpeg" />
+          <img src="./images/cover_image.jpeg" alt="Cover image" />
         </div>
         <div class="container">
           <header class="major">
@@ -93,7 +93,7 @@
             <li class="icon solid fa-database">mySql</li>
             <li class="icon solid icon brands fa-angular">Angular</li>
             <li class="icon solid icon brands fa-node-js">Node.Js</li>
-            <li class="icon solid icon brands fa-bootstrap">Bootsrap</li>
+            <li class="icon solid icon brands fa-bootstrap">Bootstrap</li>
             <li class="icon solid fa-terminal">CLI</li>
             <li class="icon solid icon brands fa-git-alt">Git and Github</li>
           </ul>
@@ -112,7 +112,7 @@
             <article>
               <a class="image" target="_blank" rel="noopener noreferrer"
                 href="https://github.com/PushPull-Hub/Js-Frameworks/tree/master/React/lyrics-finder">
-                <img src="./images/project_lyrics_finder.png" />
+                <img src="./images/project_lyrics_finder.png" alt="Lyrics Finder project screenshot" />
               </a>
               <div class="inner">
                 <h4>Lyrics Finder</h4>
@@ -126,6 +126,7 @@
             <article>
               <a class="image" target="_blank" rel="noopener noreferrer" href="https://vibrant-lewin-04a4d7.netlify.app">
                 <img src="./images/project_text_to_speech.png" />
+
               </a>
               <div class="inner">
                 <h4>Text to Speech</h4>
@@ -139,6 +140,7 @@
             <article>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/PushPull-Hub/Js-Frameworks/tree/master/Vue.Js/my-app-music"
                 class="image"><img src="./images/project_music_app.png" alt="" /></a>
+
               <div class="inner">
                 <h4>Music App</h4>
                 <p>
@@ -152,6 +154,7 @@
             <article>
               <a target="_blank" rel="noopener noreferrer" href="https://github.com/PushPull-Hub/Exercises-Projects/tree/master/Projects/todos"
                 class="image"><img src="./images/project_todo_list.png" alt="" /></a>
+
               <div class="inner">
                 <h4>TodoList</h4>
                 <p>
@@ -176,7 +179,7 @@
                 <input type="email" name="_replyto" id="email" placeholder="Email" />
               </div>
               <div class="col-12">
-                <input type="text" name="name" id="subject" placeholder="Subject" />
+                <input type="text" name="subject" id="subject" placeholder="Subject" />
               </div>
               <div class="col-12">
                 <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
@@ -211,10 +214,10 @@
   <!-- Scripts -->
   <script>
     const resetForm = () => {
-      document.getElementById('email').value = ' ';
-      document.getElementById('name').value = ' ';
-      document.getElementById('subject').value = ' ';
-      document.getElementById('message').value = ' ';
+      document.getElementById('email').value = '';
+      document.getElementById('name').value = '';
+      document.getElementById('subject').value = '';
+      document.getElementById('message').value = '';
     };
   </script>
   <script src="assets/js/jquery.min.js"></script>
